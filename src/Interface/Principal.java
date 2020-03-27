@@ -14,8 +14,6 @@ public class Principal extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
 					Principal frame = new Principal();
@@ -23,8 +21,7 @@ public class Principal extends JFrame {
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-			}
-		});
+			
 	}
 
 	/**
