@@ -130,6 +130,10 @@ public class Principal extends JFrame {
 		JLabel lblMatrizA = new JLabel("Matriz A");
 		lblMatrizA.setBounds(67, 11, 50, 25);
 		contentPane.add(lblMatrizA);
+
+		JLabel lblMatrizB = new JLabel("Matriz B");
+		lblMatrizB.setBounds(255, 11, 50, 25);
+		contentPane.add(lblMatrizB);
 		
 		textField_9 = new JTextField();
 		textField_9.setBounds(235, 30, 25, 25);
@@ -146,27 +150,23 @@ public class Principal extends JFrame {
 		contentPane.add(textField_11);
 		textField_11.setColumns(10);
 		
-		JLabel lblMatrizB = new JLabel("Matriz B");
-		lblMatrizB.setBounds(255, 11, 50, 25);
-		contentPane.add(lblMatrizB);
-		
 		textField_12 = new JTextField();
 		textField_12.setBounds(235, 61, 25, 25);
 		contentPane.add(textField_12);
 		textField_12.setColumns(10);
 		
 		textField_13 = new JTextField();
-		textField_13.setBounds(235, 92, 25, 25);
+		textField_13.setBounds(267, 61, 25, 25);
 		contentPane.add(textField_13);
 		textField_13.setColumns(10);
 		
 		textField_14 = new JTextField();
-		textField_14.setBounds(267, 61, 25, 25);
+		textField_14.setBounds(299, 61, 25, 25);
 		contentPane.add(textField_14);
 		textField_14.setColumns(10);
 		
 		textField_15 = new JTextField();
-		textField_15.setBounds(299, 61, 25, 25);
+		textField_15.setBounds(235, 92, 25, 25);
 		contentPane.add(textField_15);
 		textField_15.setColumns(10);
 		

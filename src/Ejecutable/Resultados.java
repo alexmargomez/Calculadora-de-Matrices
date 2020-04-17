@@ -47,6 +47,8 @@ public class Resultados  extends JFrame{
 		
 	}
 	
+	
+	
 	public Resultados(double a[][]){
 		setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 		setBounds(40, 40, 180, 180);
@@ -58,35 +60,52 @@ public class Resultados  extends JFrame{
 		
 		
 		JLabel lbl1 = new JLabel("" + a[0][0]);
-		lbl1.setBounds(42, 30, 25, 25);
+		lbl1.setBounds(42, 30, 30, 30);
 		contentPane.add(lbl1);
 		JLabel lbl2 = new JLabel("" + a[0][1]);
-		lbl2.setBounds(74, 30, 25, 25);
+		lbl2.setBounds(74, 30, 30, 30);
 		contentPane.add(lbl2);
 		JLabel lbl3 = new JLabel("" + a[0][2]);
-		lbl3.setBounds(106, 30, 25, 25);
+		lbl3.setBounds(106, 30, 30, 30);
 		contentPane.add(lbl3);
 		JLabel lbl4 = new JLabel("" + a[1][0]);
-		lbl4.setBounds(42, 61, 25, 25);
+		lbl4.setBounds(42, 61, 30, 30);
 		contentPane.add(lbl4);
 		JLabel lbl5 = new JLabel("" + a[1][1]);
-		lbl5.setBounds(74, 61, 25, 25);
+		lbl5.setBounds(74, 61, 30, 30);
 		contentPane.add(lbl5);
 		JLabel lbl6 = new JLabel("" + a[1][2]);
-		lbl6.setBounds(106, 61, 25, 25);
+		lbl6.setBounds(106, 61, 30, 30);
 		contentPane.add(lbl6);
 		JLabel lbl7 = new JLabel("" + a[2][0]);
-		lbl7.setBounds(42, 92, 25, 25);
+		lbl7.setBounds(42, 92, 30, 30);
 		contentPane.add(lbl7);
 		JLabel lbl8 = new JLabel("" + a[2][1]);
-		lbl8.setBounds(74, 92, 25, 25);
+		lbl8.setBounds(74, 92, 30, 30);
 		contentPane.add(lbl8);
 		JLabel lbl9 = new JLabel("" + a[2][2]);
-		lbl9.setBounds(106, 92, 25, 25);
+		lbl9.setBounds(106, 92, 30, 30);
 		contentPane.add(lbl9);
 		
 	}
 	
+	public Resultados(double a){
+		setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+		setBounds(40, 40, 180, 180);
+		JPanel contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lbl1 = new JLabel("EL determinate Es:" );
+		lbl1.setBounds(32, 30, 110, 20);
+		contentPane.add(lbl1);
+		
+		JLabel lbl2 = new JLabel("" + a);
+		lbl2.setBounds(70, 60, 70, 40);
+		contentPane.add(lbl2);
+		
+	}
 	public static void main(String[] args) {
 		try {
 	        for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
