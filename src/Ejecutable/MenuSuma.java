@@ -35,6 +35,7 @@ public class MenuSuma extends JFrame {
 				}else {
 					ERROR error = new ERROR();
 					error.setLocationRelativeTo(null);
+					setVisible(false);
 					error.setVisible(true);
 				}
 				

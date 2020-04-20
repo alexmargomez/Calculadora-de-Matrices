@@ -35,6 +35,7 @@ public class MenuMulti extends JFrame {
 				}else {
 					ERROR error = new ERROR();
 					error.setLocationRelativeTo(null);
+					setVisible(false);
 					error.setVisible(true);
 				}
 				
@@ -59,6 +60,7 @@ public class MenuMulti extends JFrame {
 				}else {
 					ERROR error = new ERROR();
 					error.setLocationRelativeTo(null);
+					setVisible(false);
 					error.setVisible(true);
 				}
 				
